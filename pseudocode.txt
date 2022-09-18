@@ -1,0 +1,29 @@
+Algoritma :
+    cara_pesan_makanan_online
+Deklarasi :
+   nama_resto, pilih_menu, alamat, metode_bayar, pesanan_diproses, pesanan_diantar : string 
+
+Deskripsi :
+    Read (nama_resto);
+    Read (pilih_menu);
+    Read (alamat);
+    Read (metode_bayar);
+
+    Repeat
+
+    if metode_bayar = 'COD' then
+        Write ('Tampilkan pesanan diterima')
+    else if metode_bayar = 'E-Wallet' then
+        Write ('Tampilkan pesanan diterima)
+    else if metode_bayar = 'Transferbank' then
+        Write ('Tampilkan pesanan diterima)
+    end if
+    end if
+
+    Until 
+        (response = 'metode_bayar);
+
+    Read (pesanan_diproses);
+    Read (pesanan_diantar);
+
+    end for
