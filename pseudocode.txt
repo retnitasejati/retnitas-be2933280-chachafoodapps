@@ -9,6 +9,8 @@ Deskripsi :
     Read (alamat);
     Read (metode_bayar);
 
+    Repeat
+
     if metode_bayar = 'COD' then
         Write ('Tampilkan pesanan diterima')
     else if metode_bayar = 'E-Wallet' then
@@ -17,6 +19,9 @@ Deskripsi :
         Write ('Tampilkan pesanan diterima)
     end if
     end if
+
+    Until 
+        (response = 'metode_bayar);
 
     Read (pesanan_diproses);
     Read (pesanan_diantar);
